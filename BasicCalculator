@@ -1,7 +1,6 @@
 while True:
     islem = input("İşlem türü (+-/*)(çıkmak için 'çıkış'):")
-    if islem == "çıkış":
-        break
+    if islem == "çıkış":break
     if islem == "+":
         sayı1 = float(input("Sayı 1 :"))
         sayı2 = float(input("Sayı 2 :"))
